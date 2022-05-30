@@ -44,10 +44,10 @@ mvn clean test -Dcucumber.filter.tags=@WebAutomation -Dweb.browser=chrome -P web
 
 ### Application known issues
 
-* Once navigate to resources, other menu tab is not working
+* Once navigate to resources tab, other menu tab is not working
 * Search functionality is not working
-* Connect to wallet button is not working
+* Connect to wallet is not working
 * Top Signup up button is not working
-* NFT category is empty
+* NFT categories are empty
 * Term of services button is not working
 * Privacy button is not working
