@@ -19,7 +19,7 @@
 
 Runs the tests with below mvn cli commands
 
-mvn clean test -Dcucumber.filter.tags=@WebAutomation -Dweb.browser=chrome -P web
+mvn clean test -Dcucumber.filter.tags=@Regression -Dweb.browser=chrome -P web
 
     1- -P can have these two possible values web/api
     2- -Dweb.browser can have these posible values chrome/edge/firefox
@@ -27,13 +27,13 @@ mvn clean test -Dcucumber.filter.tags=@WebAutomation -Dweb.browser=chrome -P web
 ### To Run Web Automation test locally, run below shared command through CLI
 
 #### To Run on Chrome browser
-    mvn clean test -Dcucumber.filter.tags=@WebAutomation
+    mvn clean test -Dcucumber.filter.tags=@Regression
 
 #### To Run on Edge browser
-    mvn clean test -Dcucumber.filter.tags=@WebAutomation-Dweb.browser=edge
+    mvn clean test -Dcucumber.filter.tags=@Regression-Dweb.browser=edge
 
 #### To Run on Firefox browser
-    mvn clean test -Dcucumber.filter.tags=@WebAutomation-Dweb.browser=firefox
+    mvn clean test -Dcucumber.filter.tags=@Regression-Dweb.browser=firefox
 
 ### Analyze result post execution
 
